@@ -94,7 +94,8 @@ body{
 #contactinfo{
     display:grid;
     grid-template-columns: repeat(2, 220px);
-    gap:10px;
+    row-gap:10px;
+    column-gap:12px;
     padding-bottom:20px;
     
 }
