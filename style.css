@@ -2,6 +2,7 @@ body{
     display:flex;
     padding:0px;
     font-family:Arial, Helvetica, sans-serif;
+    height:100vw;
 }
 
 @font-face {
@@ -9,20 +10,18 @@ body{
     src: url(fonts/Norse-Bold.otf);
 }
 
-#leftside{
-   /*  display:flex;
-    flex-direction:column; */
-    margin:0px;
-    position: relative;
-    color:white;
-    align-items: center;
-    background-image: url(images/halie-west-25xggax4bSA-unsplash.jpg);
-    background-repeat: no-repeat;
-    background-size:cover;
+#leftsidepicture{
     display:flex;
     flex-direction: column;
-    width:40vw;
-
+    align-items: center;
+    width: 40vw;
+    position: relative;
+    margin:0px;
+    color:white;
+    background-image: url(images/halie-west-25xggax4bSA-unsplash.jpg);
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
 }
 
 
@@ -30,7 +29,7 @@ body{
 /* contains both logo image and text with transparent background*/
 .bannerlogocontainer{
     position:absolute;
-    top:180px;
+    top:148px;
     background-color: rgb(23, 28, 32,.3);
     display:flex;
     align-items: center;
@@ -134,13 +133,10 @@ input{
 
 input:focus[type="password"]{
     outline:red solid 1px;
-    background:yellow;
 }
-
 
 input:focus[type="text"],input:focus[type="email"]{
     outline:rgb(47, 0, 255) solid 1px;
-    background:yellow;
 }
 
 label{
