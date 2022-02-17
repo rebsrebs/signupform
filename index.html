@@ -9,26 +9,87 @@
 </head>
 <body>
     
-<div id="leftbanner">
-<img src="">
-<img src="">
-<p id="photocredit">Photo by so and so.</p>
+
+
+<!-- Left side     -->
+<div id="leftside">
+
+    <!-- strip with logo and text -->
+    <div class="bannerlogocontainer">
+        <img id="bannerlogoimage" src="images/odin-lined.png">
+        <span id="bannerlogotext" class="bannerlogotext">ODIN</span>
+    </div>
+
+    <!-- photo credit -->
+    <p id="bannerphotocredit" class="photocredit">Photo by <a href="https://www.haliewestphotography.com/" target="blank">Halie West</a> on <a href="https://unsplash.com/">Unsplash</a></p>
+
 </div>
 
+
+<!-- Right side -->
+<div id="rightside">
+
+
+    <!-- call to action text -->
 <div id="calltoaction">
-   <p class="calltext">This is not a real online service! You know you need something like this in your life to realize your deepest dreams. Sign up <em>now</em> to get started.</p>
-   <p class="calltext">Sign up now to get started.</p>
+   <p class="calltext" id="calltext1">This is not a real online service! You know you need something like this in your life to realize your deepest dreams. </br>Sign up <em>now</em> to get started.</p>
+   <p class="calltext" id="calltext2">You <em>know</em> you want to.</p>
 </div>
 
+
+
+<!-- The Form -->
 <div id="formcontainer">
-    <form>
-<div></div>
+    <form action="example.com/path" method="post">
 
-<button type="submit"></button>
-<p id="haveanaccount">Already have an account? Login.</p>
-    </form>
+        <div id="shadowformcontainer">
+        <h3>Let's do this!</h3>
+
+ <!-- Contact info inputs -->
+        <div id="contactinfo">
+
+<div class="contactInput">
+    <label for="firstName">First name</label>
+  <input type="text" id="firstName">
 </div>
 
+<div class="contactInput">
+  <label for="lastName">Last name</label>
+  <input type="text" id="lastName" class="focus">
+</div>
+
+<div class="contactInput">
+  <label for="email">E-mail</label>
+  <input type="email" name="email" id="email">
+</div>
+
+<div class="contactInput">
+  <!-- Some kind of format check for this? -->
+  <label for="phoneNumber">Phone number</label>
+  <input type="text" id="phoneNumber">
+</div>
+
+<div class="contactInput">
+  <label for="userPassword">Password</label>
+  <input type="password" name="userPassword" id="userPassword">
+</div>
+
+<div class="contactInput">
+  <label for="confirmPassword">Confirm password</label>
+<input type="password" name="userPassword" id="userPassword" class="error">
+</div>
+    </div></div>
+    <!-- End contact info inputs -->
+
+
+  <div id="bottomright">
+
+    <button type="submit" id="submitbutton">Create Account</button>
+</form>
+
+<p id="haveanaccount">Already have an account? <a href="">Login.</a></p>
+</div>
+</div>  
 
 
 
@@ -38,6 +99,9 @@
 
 
 
-    <script src="scipt.js"></script>
+
+
+
+    <script src="script.js"></script>
 </body>
 </html>
