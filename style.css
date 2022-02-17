@@ -2,7 +2,7 @@ body{
     display:flex;
     padding:0px;
     font-family:Arial, Helvetica, sans-serif;
-    height:100vw;
+    height:100vh;
 }
 
 @font-face {
@@ -19,8 +19,8 @@ body{
     margin:0px;
     color:white;
     background-image: url(images/halie-west-25xggax4bSA-unsplash.jpg);
-    background-position: center;
-    background-size: auto;
+    background-position:center;
+    background-size:cover;
     background-repeat: no-repeat;
 }
 
